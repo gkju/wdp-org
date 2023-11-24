@@ -4,7 +4,9 @@
 #include <limits.h>
 #include <stdbool.h>
 #include <assert.h>
-
+/////////////////////////////////////////////////
+// Code review robione przez Wojciech Sobiński //
+/////////////////////////////////////////////////
 bool is_zero(double x) {
     return fabs(x) < 1e-10;
 }
@@ -250,3 +252,6 @@ int main() {
     }
     free(papers);
 }
+/////////////////////////////////////////////////
+// Code review robione przez Wojciech Sobiński //
+/////////////////////////////////////////////////
